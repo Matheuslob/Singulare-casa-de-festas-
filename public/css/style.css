@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: sans-serif;
+    padding-top: 70px;
+    position: relative;
+    background-color: black;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+main{
+    flex: 1;
+}
+
+  
+.sing{
+    margin: 100px;
+    display: inline-flex;
+   }
+#sing{
+    width: 450px;
+}
+#wel{
+    color: white;
+    font-size: large;
+    padding: 180px 20px;
+    
+}
+.row{
+    margin: 0;
+    
+}
+.container{
+    padding: 70px 0;
+    
+}
+p, li{
+    color: white;
+    font-size: 14px;
+}
+
+.navbar{
+    background-color:black;
+    color: white;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+#logo{
+    width: 50px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+   padding: 1rem .8rem; 
+   color: white;
+   
+}
+/* Event create page */
+#event-create-container, #event-confirm-container{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+#event-confirm-container,p,li{
+    color: black;
+}
+  
+
+  #event-create-container label {
+    font-weight: bold;
+  }
+  
+  
+  #event-create-container input,
+  #event-create-container select,
+  #event-create-container textarea {
+    font-size: 12px;
+    
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+    margin-top: 15px; /* Ajuste de margem superior */
+}
+
+.button-container form {
+    margin: 0; /* Remove margens padrão dos formulários */
+}
+/* dashboard*/
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    }
+.dashboard-title-container h1{
+    color:white;
+}
+
+
+.dashboard-events-container th{
+    width: 25%;
+    }
+
+.dashboard-events-container form{
+    display: inline-block;
+}
+#event{
+    color: white;
+}
+
+
+ footer {
+    background-color: #222;
+    padding: 20px;
+    position: relative;
+  }
+
+  .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-align: right;
+  }
+
+  .social-links li {
+    margin-bottom: 10px;
+  }
+
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .social-links a i {
+    margin-right: 8px;
+  }
+
+  .social-links a:hover {
+    text-decoration: underline;
+  }
